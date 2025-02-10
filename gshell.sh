@@ -26,20 +26,17 @@ INFO="${BLUE}${BOLD}ℹ${RESET}"
 packages_updated="Pending"
 proot_installed="Pending"
 ubuntu_installed="Pending"
-cloud_sdk_configured="Pending"
-
+cloud_sdk_configured="Pending"                                                                              
 #-------------------------------------------
 #direct launch function with argumemt
 #------------------------------------------
 
-if [ "$1" == "-direct" ]; then
-    echo -e "${BLUE}${BOLD}Directly launching Cloud Shell...${RESET}"
+if [ "$1" == "-direct" ]; then                                                                                  echo -e "${BLUE}${BOLD}Directly launching Cloud Shell...${RESET}"
     proot-distro login ubuntu --termux-home -- bash -c "gcloud alpha cloud-shell ssh --authorize-session "
     exit 0
 fi
 
-
-# ----------------------------------------------------------------------
+                                                                                                            # ----------------------------------------------------------------------
 # Function: section
 # Displays a header for each major section
 # ----------------------------------------------------------------------
@@ -146,7 +143,7 @@ if ! command -v proot-distro >/dev/null; then
         proot_installed="Yes"
     else
         echo -e "${CROSSMARK} Failed to install proot-distro"
-        
+
     fi
 else
     echo -e "${CHECKMARK} proot-distro already installed"
@@ -169,7 +166,7 @@ if ! proot-distro info ubuntu >/dev/null 2>&1; then
         ubuntu_installed="Yes"
     else
         echo -e "${CROSSMARK} Failed to install Ubuntu"
-        
+
     fi
 else
     echo -e "${CHECKMARK} Ubuntu already installed"
@@ -181,7 +178,10 @@ dashboard
 # Section 4: Cloud SDK Setup Script Creation inside Ubuntu
 # -------------------------------
 section "Cloud SDK Configuration"
-UBUNTU_SETUP_SCRIPT="termux_gcloud_setup.sh"
+#SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+UBUNTU_SETUP_SCRIPT=termux_gcloud_setup.sh
+
+
 cat > "$UBUNTU_SETUP_SCRIPT" <<'EOF'
 #!/bin/bash
 set -eo pipefail
@@ -235,12 +235,17 @@ dashboard
 # -------------------------------
 section "Starting Ubuntu Environment"
 echo -e "${INFO} Launching PROOT Ubuntu with Cloud Shell setup..."
+#proot-distro login ubuntu \
+ #   --bind /dev/null:/proc/sys/kernal/cap_last_cap \
+  #  --shared-tmp \
+   # --termux-home \
+ #   -- bash -c "./$UBUNTU_SETUP_SCRIPT && rm -f ./$UBUNTU_SETUP_SCRIPT"
+#cloud_sdk_configured="Configured"
 proot-distro login ubuntu \
-    --bind /dev/null:/proc/sys/kernal/cap_last_cap \
+    --bind /data/data/com.termux/files/home:/home \
     --shared-tmp \
     --termux-home \
-    -- bash -c "./$UBUNTU_SETUP_SCRIPT && rm -f ./$UBUNTU_SETUP_SCRIPT"
-cloud_sdk_configured="Configured"
+    -- bash -c "/home/termux-cloudshell-setup/termux_gcloud_setup.sh && rm -f /home/termux-cloudshell-setup/termux_gcloud_setup.sh"
 dashboard
 
 # -------------------------------
