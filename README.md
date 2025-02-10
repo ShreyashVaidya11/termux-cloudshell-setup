@@ -13,6 +13,11 @@ A seamless bridge between Termux and Google Cloud Shell 🔄
 [![made-with-bash](https://img.shields.io/badge/Made%20with-Bash-1f425f.svg)](https://www.gnu.org/software/bash/)
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Naereen/badges/)
 [![GitHub version](https://badge.fury.io/gh/Naereen%2FStrapDown.js.svg)](https://github.com/Naereen/StrapDown.js)
+# My Termux Project
+
+
+[![Termux Compatible](https://img.shields.io/badge/Termux-Compatible-green?style=for-the-badge&logo=termux)](https://f-droid.org/en/packages/com.termux/)
+
 ## 🌟 Features
 
 - **One-Click Setup**  
