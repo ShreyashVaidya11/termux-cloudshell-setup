@@ -10,7 +10,7 @@ A seamless bridge between Termux and Google Cloud Shell 🔄
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ShreyashVaidya11/termux-cloudshell-setup/pulls)
-
+[![made-with-bash](https://img.shields.io/badge/Made%20with-Bash-1f425f.svg)](https://www.gnu.org/software/bash/)
 ## 🌟 Features
 
 - **One-Click Setup**  
