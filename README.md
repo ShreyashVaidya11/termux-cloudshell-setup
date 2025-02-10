@@ -1,20 +1,4 @@
-
-
-### GSHELL is a Bash script specifically crafted to bring Google Cloud Shell to your Termux environment. It automates the entire installation process by:
-
-## Preparing Your Environment: Automatically updating Termux packages and installing essential dependencies.
-
-## Deploying an Isolated Ubuntu Container: Using proot-distro, GSHELL sets up a secure Ubuntu container, ensuring that the installation of the Google Cloud SDK remains isolated from your main Termux setup.
-
-## Installing the Google Cloud SDK: Inside the container, the script installs and configures the Google Cloud SDK, enabling you to launch and use Google Cloud Shell directly on your device.
-
-## Interactive User Experience: Enjoy real-time progress updates with animated spinners and dynamic progress bars that guide you through the setup.
-
-## Quick Access Option: Use the -direct flag to bypass the initial setup steps and immediately jump into Google Cloud Shell when needed.
-
-
-```markdown
-# GSHELL ☁️ <img src="https://github.com/ShreyashVaidya11/termux-cloudshell-setup/blob/main/Assets/Screenshot_20250210_123210_Termux.jpg?style=for-the-badge&logo=termux&logoColor=white" alt="Termux" align="right"> 
+# GSHELL ☁️ <img src="https://img.shields.io/badge/Termux-000000?style=for-the-badge&logo=termux&logoColor=white" alt="Termux" align="right"> 
 
 ![GSHELL Demo](https://via.placeholder.com/800x400.png?text=GSHELL+Demo+GIF+Here) 
 *(Replace with actual demo GIF showing installation and usage)*
@@ -59,8 +43,7 @@ cd gshell
 # Make script executable
 chmod +x gshell.sh
 
-### Full installation
-```bash
+# Full installation
 ./gshell.sh
 ```
 
@@ -68,6 +51,7 @@ chmod +x gshell.sh
 ```bash
 ./gshell.sh -direct
 ```
+
 ## 🖼️ Screenshots
 
 | Installation Process | Cloud Shell Access |
@@ -137,3 +121,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Screen Recording:** Use AZ Screen Recorder (Android)
 - **GIF Creation:** Use ScreenToGif or LICEcap
 - **Diagramming:** Draw.io or Excalidraw
+
+Remember to replace placeholder URLs with actual image paths once you have the visuals ready!
