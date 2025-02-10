@@ -14,7 +14,7 @@ A seamless bridge between Termux and Google Cloud Shell 🔄
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Naereen/badges/)
 [![GitHub version](https://badge.fury.io/gh/Naereen%2FStrapDown.js.svg)](https://github.com/Naereen/StrapDown.js)
 ## Termux Project
-
+[![Termux Compatible](https://img.shields.io/badge/Termux-Compatible-green?style=for-the-badge&logo=data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><path fill='%23FFFFFF' d='...'/></svg>)](https://termux.com)
 
 [![Termux Compatible](https://img.shields.io/badge/Termux-Compatible-green?style=for-the-badge&logo=termux)](https://f-droid.org/en/packages/com.termux/)
 
