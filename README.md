@@ -1,6 +1,6 @@
 
 
-GSHELL is a Bash script specifically crafted to bring Google Cloud Shell to your Termux environment. It automates the entire installation process by:
+###GSHELL is a Bash script specifically crafted to bring Google Cloud Shell to your Termux environment. It automates the ###entire installation process by:
 
 Preparing Your Environment: Automatically updating Termux packages and installing essential dependencies.
 
