@@ -13,36 +13,6 @@ Interactive User Experience: Enjoy real-time progress updates with animated spin
 Quick Access Option: Use the -direct flag to bypass the initial setup steps and immediately jump into Google Cloud Shell when needed.
 
 
-With GSHELL, accessing Google Cloud Shell on Termux becomes a streamlined, secure, and interactive experience—ideal for developers and cloud enthusiasts who want the power of the cloud on their mobile device.
-
-Setup Steps
-
-1. Clone the Repository
-
-Clone the GSHELL repository into your Termux environment:
-
-git clone https://github.com/ShreyashVaidya11/termux-cloudshell-setup.git
-cd gshell
-
-2. Make the Script Executable
-
-Adjust the file permissions so you can execute the GSHELL script:
-
-chmod +x gshell.sh
-
-3. Run GSHELL
-
-Full Setup:
-To automatically update packages, deploy the Ubuntu container, and install/configure the Google Cloud SDK, run:
-
-./gshell.sh
-
-Direct Access:
-If the setup is already complete and you want to immediately launch Google Cloud Shell, use the -direct flag:
-
-./gshell.sh -direct
-
-
 ```markdown
 # GSHELL ☁️ <img src="https://img.shields.io/badge/Termux-000000?style=for-the-badge&logo=termux&logoColor=white" alt="Termux" align="right"> 
 
@@ -89,7 +59,8 @@ cd gshell
 # Make script executable
 chmod +x gshell.sh
 
-# Full installation
+### Full installation
+```bash
 ./gshell.sh
 ```
 
