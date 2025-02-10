@@ -1,6 +1,10 @@
+
+
+
 # GSHELL ☁️ <img src="https://github.com/ShreyashVaidya11/termux-cloudshell-setup/blob/main/Assets/InShot_20250210_132012306.jpg" alt="Termux" align="right"> 
 
 ![GSHELL Demo](https://via.placeholder.com/800x400.png?text=GSHELL+Demo+GIF+Here) 
+
 
 A seamless bridge between Termux and Google Cloud Shell 🔄
 
@@ -51,11 +55,6 @@ chmod +x gshell.sh
 ./gshell.sh -direct
 ```
 
-## 🖼️ Screenshots
-
-| Installation Process | Cloud Shell Access |
-|----------------------|--------------------|
-| ![Step 1](https://via.placeholder.com/400x200.png?text=Package+Installation) | ![Step 2](https://via.placeholder.com/400x200.png?text=Cloud+Shell+Interface) |
 
 ## 📂 Project Structure
 ```
@@ -85,40 +84,3 @@ graph TD
 
 Contributions are welcome! Please follow our [contribution guidelines](CONTRIBUTING.md).
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-```
-
-**Recommendations for Visuals:**
-
-1. **Demo GIF:**  
-   Create a screen recording showing:
-   - Script execution process
-   - Ubuntu container setup
-   - Cloud SDK installation
-   - Successful launch of Cloud Shell
-
-2. **Screenshots:**
-   - Termux package update progress
-   - proot-distro container creation
-   - gcloud initialization screen
-   - Active Cloud Shell session
-
-3. **Badges:**  
-   Add real badges from [shields.io](https://shields.io) for:
-   - Android version compatibility
-   - Termux package version
-   - Last commit status
-
-4. **Diagram:**  
-   Create a proper mermaid diagram or architecture flowchart
-
-**Tools to Create Visuals:**
-- **Termux Screenshots:** Use Termux:Widget for easier screenshot capture
-- **Screen Recording:** Use AZ Screen Recorder (Android)
-- **GIF Creation:** Use ScreenToGif or LICEcap
-- **Diagramming:** Draw.io or Excalidraw
-
-Remember to replace placeholder URLs with actual image paths once you have the visuals ready!
