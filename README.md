@@ -1,4 +1,4 @@
-# GSHELL ☁️ <img src="https://img.shields.io/badge/Termux-000000?style=for-the-badge&logo=termux&logoColor=white" alt="Termux" align="right"> 
+# GSHELL ☁️ <img src="https://github.com/ShreyashVaidya11/termux-cloudshell-setup/blob/main/Assets/InShot_20250210_132012306.jpg" alt="Termux" align="right"> 
 
 ![GSHELL Demo](https://via.placeholder.com/800x400.png?text=GSHELL+Demo+GIF+Here) 
 
