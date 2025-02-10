@@ -42,7 +42,7 @@ Getting Started
 
 1. Clone the Repository
 
-git clone https://github.com/yourusername/gshell.git
+git clone https://github.com/ShreyashVaidya11/termux-cloudshell-setup.git
 cd gshell
 
 2. Make the Script Executable
