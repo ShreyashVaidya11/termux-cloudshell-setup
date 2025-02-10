@@ -1,16 +1,16 @@
 
 
-###GSHELL is a Bash script specifically crafted to bring Google Cloud Shell to your Termux environment. It automates the ###entire installation process by:
+### GSHELL is a Bash script specifically crafted to bring Google Cloud Shell to your Termux environment. It automates the entire installation process by:
 
-Preparing Your Environment: Automatically updating Termux packages and installing essential dependencies.
+## Preparing Your Environment: Automatically updating Termux packages and installing essential dependencies.
 
-Deploying an Isolated Ubuntu Container: Using proot-distro, GSHELL sets up a secure Ubuntu container, ensuring that the installation of the Google Cloud SDK remains isolated from your main Termux setup.
+## Deploying an Isolated Ubuntu Container: Using proot-distro, GSHELL sets up a secure Ubuntu container, ensuring that the installation of the Google Cloud SDK remains isolated from your main Termux setup.
 
-Installing the Google Cloud SDK: Inside the container, the script installs and configures the Google Cloud SDK, enabling you to launch and use Google Cloud Shell directly on your device.
+## Installing the Google Cloud SDK: Inside the container, the script installs and configures the Google Cloud SDK, enabling you to launch and use Google Cloud Shell directly on your device.
 
-Interactive User Experience: Enjoy real-time progress updates with animated spinners and dynamic progress bars that guide you through the setup.
+## Interactive User Experience: Enjoy real-time progress updates with animated spinners and dynamic progress bars that guide you through the setup.
 
-Quick Access Option: Use the -direct flag to bypass the initial setup steps and immediately jump into Google Cloud Shell when needed.
+## Quick Access Option: Use the -direct flag to bypass the initial setup steps and immediately jump into Google Cloud Shell when needed.
 
 
 ```markdown
